@@ -18,3 +18,9 @@ reagent-desc-nitrous-oxide = You know how everything seems funnier when you're t
 
 reagent-name-frezon = frezon
 reagent-desc-frezon = A highly effective coolant.. and hallucinogenic.
+
+reagent-name-sulfur-dioxide = sulfur dioxide
+reagent-desc-sulfur-dioxide = It just smells of burnt matches, but is there even anything there?
+
+reagent-name-sulfur-trioxide = sulfur trioxide
+reagent-desc-sulfur-trioxide = The smell, the odor, it stings!
