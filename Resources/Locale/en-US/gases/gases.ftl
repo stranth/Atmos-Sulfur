@@ -8,3 +8,5 @@ gases-ammonia = Ammonia
 gases-n2o = Nitrous Oxide
 gases-frezon = Frezon
 gases-s2o = Sulfur Dioxide
+gases-s3o = Sulfur Trioxide
+gases-h2so4 = Sulfuric Acid Vapor
