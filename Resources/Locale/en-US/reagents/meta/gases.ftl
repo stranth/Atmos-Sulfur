@@ -24,3 +24,6 @@ reagent-desc-sulfur-dioxide = It just smells of burnt matches, but is there even
 
 reagent-name-sulfur-trioxide = sulfur trioxide
 reagent-desc-sulfur-trioxide = The smell, the odor, it stings!
+
+reagent-name-sulfuric-acid-vapor = fuming sulfuric acid
+reagent-desc-sulfuric-acid-vapor = You know, it seems a little mad.
