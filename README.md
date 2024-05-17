@@ -105,11 +105,10 @@ DMMMD Chemicals
 ###
 
 ###
-
 - Reagents will not heat past their boiling point, averaged out by solution mix and solution heat cap.
-- The Min of the boiling point of gas reagents or the gas current temperature will be used as the instantiation temperature of a gas within a condenser.
+- The Min of the boiling point of gas reagents or the gas current temperature will be used as the instantiation temperature of a reagent within a condenser.
 ###
-- Gasses will have triple points which will not yet be used for anything but clamping minimum temperatures, this will affect the temperature of spawned gasses.
+- Reagents will have triple points which will not yet be used for anything but clamping minimum temperatures, this will affect the temperature of spawned gasses.
 ###
 
 
