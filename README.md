@@ -108,7 +108,8 @@ DMMMD Chemicals
   - Gas present on Volatile Atmospheres & Toxic, will be a new atmosphere type for these both.
 - Add Sulfur Dioxide Reagent:
   - 1u Sulfur + 8u Oxygen @420.15K -> create gas 4.76mol Sulfur Dioxide @1420.15K (Yes this does spike the temp of the product to 1000+ degrees.)
-  - 2u Hydrogen Sulfide + 3u Oxygen -> Sulfur Dioxide + Water
+  - 2u Hydrogen Sulfide + 3u Oxygen @420.15K -> create gas 4.76mol Sulfur Dioxide + create gas 4.76mol Water Vapor
+  - Sulfur Dioxide will now emit from the Industrial Ore Processor on the production of Steel, Reinforced Glass, and Plasteel. Initial value will be 19.04mol of SO2 and be scaled with the amount of ore being used. These can be set to constant values since we won't need to calculate the cost given the static, un-upgradeable nature of this machine.
 ###
 ## Yet to be categorised
 ###
