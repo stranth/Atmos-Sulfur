@@ -33,6 +33,8 @@
 - Add Aluminium Hydroxide reagent.
   - Should block puking, this is a common antacid. (This will be useful should virology ever come back)
   - Removes 0.5u of an Acid within the metabolizer if theres 1u or more of any Acid present.
+  - Suppresses Fire!
+- Replace water in Fire Extinguishers with Aluminium Hydroxide at round start. Will increase the effectiveness of the item itself.
 - Add Bauxite Ore. Grinds into 5u Aluminium and 5u Aluminium Hydroxide. Only will be able to spawn in Grasslands.
 - Add Platinum reagent. Oh hoh what could it do?
 - Add Platinum Ore. Now we have all the rad space valuables. Grinds into 10u Platinum reagent. 
