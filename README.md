@@ -70,7 +70,7 @@ DMMMD Chemicals
   **Edit: The CMO has advised me that we have found something with great implications for how we do our chemistry as a whole... this planet is one for the databases certainly**
 ##
 - Add Hydrogen Sulfide Reagent: 
-  - 2u Hydrogen + 1u Sulfur @ 723.15K -> 1u Hydrogen Sulfide
+  - 16u Hydrogen + 1u Sulfur @ 723.15K -> 8u Hydrogen Sulfide
   - Effect (Poison 0.5u/s): Has a 10% chance to cause vomiting. Deals 1.5 Airloss when there is at least 10u of this reagent. Deals 3 Airloss when there is at least 35u of this reagent. Deals 10 Airloss when there is at least 80u of this reagent. Upon reaching 100u of this reagent you instantly crit.
 - Change Sulfuric Acid Recipe:
   - 1u Hydrogen Sulfide + 2u Oxygen -> 1u Sulfuric Acid
@@ -102,9 +102,13 @@ DMMMD Chemicals
 ###
 ## I am become Gas. Destroyer of Water.
 ### **Engineering Log #G45P155-E-R-093**
-  **So the Chemistry nerds have been complaining about some awful god damn smells coming from their new fume hoods. After reading the logs I couldn't find a god damned thing, so I took one of their hoods to peer into its innards. The nerds are a bunch a wussies if they can't handle the smell of burnt matches, but there's signs of corrosion all over the place. What in the god damn were they mixing?**
+  **So the Chemistry nerds have been complaining about some awful god damn smells coming from their new fume hoods. After reading the logs I couldn't find a god damned thing, so I took one of their hoods to peer into its innards. The nerds are a bunch a wussies if they can't handle the smell of burnt matches, but there's signs of corrosion all over the place. This matches with an earlier report last week from the science department... What in the god damn were they mixing?**
 ##
-- Add Sulfur Dioxide Reagent
+- Add Sulfur Dioxide Gas:
+  - Gas present on Volatile Atmospheres & Toxic, will be a new atmosphere type for these both.
+- Add Sulfur Dioxide Reagent:
+  - 1u Sulfur + 8u Oxygen @420.15K -> create gas 4.76mol Sulfur Dioxide @1420.15K (Yes this does spike the temp of the product to 1000+ degrees.)
+  - 2u Hydrogen Sulfide + 3u Oxygen -> Sulfur Dioxide + Water
 ###
 ## Yet to be categorised
 ###
