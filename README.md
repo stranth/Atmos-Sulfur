@@ -52,10 +52,12 @@ DMMMD Chemicals
 - CO2 degradation in the Gas Recycler Machine will now add 0.07u of Carbon per mol of CO2 processed.
 - The Gas Recycler Machine will now output 1 diamond for every 20u of Carbon within it while pressure is higher than 5500 kPa & temp is between 1984.15K & 3773.15K.
 - The Gas Recycler Machine will be renamed into the Gas Processor Machine to make its function more obvious.
+- Add 10 Diamonds to the recipe for the Industrial Ore Processor. (Diamond teeth grind ya ore go brrrrrr. Harass atmos if you lack the diamonds.)
 - Add a reagent buffer to the Industrial Ore processor. 
 - Make the IOP its own reaction container.
 - Add Aluminium Sheet. Only available from Industrial ore processor. 1 Water 2 Bauxite Ore 1 Coal Ore 1 Salt ore -> 30 Aluminium Sheets
-- Shuttle walls will now require Aluminium Sheets instead of rods.
+- Add Aluminium Rod. Rod but in shiny new format.
+- Shuttle walls and other shuttle specific constructions will now require Aluminium Sheets or Rods repsectively in their construction. The advantage will be less mass of the fixture compared to its steel counterpart or current mass in the case of wallmounts.
 ###
 ## My lungs!
 ### **Star Date A Week Away:**
@@ -74,18 +76,25 @@ DMMMD Chemicals
   - Effect: (Poison 0.5u/s): Has a 5% chance to block vomiting from the metabolizer if there is less than 1u of this reagent. Removes 2u of Hydrogen Sulfide when theres at least 1.5u of Hydrogen Sulfide present.
 - Add an effect to Vitamin reagent: Removes 0.1u of Hydrogen Sulfide when theres at least 0.1u of Hydrogen Sulfide present. (Basically a weaker version of Sodium Nitrate that is readily available and will be helpful to provide for later additions.)
 ###
-## Yet to be categorised
-###
-- Add a Fume Hood Machine, a T2 service tech. It would be toggleable like condenser machines, while active it would query for events related to adding reagents and then use the dictionary lookup available to reagents to predict the products available to the solution to check if they are going to make a reagent with a gaseous product,  similarly on reaction the reaction container would need to check for a fume hood machine on the tile of the reaction. if no fume hood the reaction spills its gas into the air, else the gas gets transferred to the fume hoods buffer.
-###
-- Add Nitric Oxide:
+## Holy shit there's real acid rain in my lungs
+### **NT-AUDIOLOG-X229-NO:**
+  *Log Playback: Initializing* **THE RD DIED. HE TOOK HIS MASK OFF AND HE DIED. I WENT IN THE ROOM AND THE GAS ANALYZER ONLY READ WATER??? WATER DOESNT ACIDIFY SOMEONE OH GOD OH FUCK OH SHIT.** *End Log, Glory to NanoTrasen*
+##
+- Add Nitric Oxide Reagent:
   - 4u Ammonia + 5u Oxygen + 2u Platinum @1123.15K -> 4u Nitric Oxide + 2u Platinum + create gas effect for 28.6mol of Water Vapor.
-- Add Nitrogen Dioxide Reagent: 
-  - 2u Nitric Oxide + 1u O2 -> 2u Nitrogen Dioxide
-  - 1u Nitrogen + 2u Oxygen @1173.15K -> 2u Nitogen Dioxide 
+- Add Nitrogen Dioxide Reagent:
   - 4u Ammonia + 7u Oxygen @1173.15K -> 4u Nitrogen Dioxide + create gas effect for 28.6 mol of Water Vapor.
+  - 2u Nitric Oxide + 1u O2 -> 2u Nitrogen Dioxide (See below)
+  - 1u Nitrogen + 2u Oxygen @1173.15K -> 2u Nitogen Dioxide (This will probably get used for gasses, he fucking died)
 - Add Nitric Acid Reagent:
   - 3u Nitrogen Dioxide + 1u Water -> 2u Nitric Acid + Nitric Oxide
+- Add Sodium Nitrite Reagent:
+  - 1u Nitric Oxide + 1u Nitrogen Dioxide + 2u Sodium Hydroxide -> 2u Sodium Nitrite
+- Add a Fume Hood Machine, a T2 service tech. It would be toggleable like condenser machines, while active it would query for events related to adding reagents and then use the dictionary lookup available to reagents to predict the products available to the solution to check if they are going to make a reagent with a gaseous product,  similarly on reaction the reaction container would need to check for a fume hood machine on the tile of the reaction. if no fume hood the reaction spills its gas into the air, else the gas gets transferred to the fume hoods buffer. Don't be the RD that died.
+###
+## Yet to be categorised
+###
+
 ###
 - Add Ammonium Nitrate (this is gonna make IEDs harder just you wait): 1u Nitric Acid + 1u Ammonia -> 1u Ammonium Nitrate
 - Add two reactions to make AN a hard to store chemical:
@@ -96,7 +105,7 @@ DMMMD Chemicals
 ###
 
 ###
-- Add Sodium Nitrite Reagent: 1u Nitric Oxide + 1u Nitrogen Dioxide + 2u Sodium Hydroxide -> 2u Sodium Nitrite
+
 - Reagents will not heat past their boiling point, averaged out by solution mix and solution heat cap.
 - The Min of the boiling point of gas reagents or the gas current temperature will be used as the instantiation temperature of a gas within a condenser.
 ###
