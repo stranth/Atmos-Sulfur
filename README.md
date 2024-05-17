@@ -30,12 +30,14 @@
 ### **Star Date Today:** 
   **The mining team gave me a startling report, this planet seems to be rich in ores we haven't heard of since earth. My curiosity led me into the mines, and when I laid my eyes on it. My god.**
 ##
-- Add Aluminium Hydroxide reagent. : )
-- Add Bauxite Ore. Grinds into 5u Aluminium and 10u Aluminium Hydroxide. Only will be able to spawn in Grasslands.
+- Add Aluminium Hydroxide reagent.
+- Add Bauxite Ore. Grinds into 5u Aluminium and 5u Aluminium Hydroxide. Only will be able to spawn in Grasslands.
 - Add Platinum reagent. Oh hoh what could it do?
-- Add Platinum Ore. Now we have all the rad space valuables. Grinds into 10u Platinum reagent.
-- Add Potassium Nitrate Reagent (pipe bomb nerf? lmao)
-- Add Sodium Nitrate Reagent(also smoke bombs? ayyy fuq)
+- Add Platinum Ore. Now we have all the rad space valuables. Grinds into 10u Platinum reagent. 
+- Add Potassium Nitrate Reagent:
+  - Effects(Poison 0.5u) Deals 1 Genetic (It does in fact cause cancer...)
+- Add Sodium Nitrate Reagent
+- Gunpowder is now produced by mixing 4u of Sodium nitrate with 3u of charcoal and 3u of sulfur, instead of using Potassium. The item produced isn't black enough to be black powder.
 - Add Saltpeter: Grinds into 4u sodium nitrate + 4u potassium nitrate + 2u table salt 
 ###
 ## Industrial Machine Refactors
@@ -103,7 +105,9 @@ DMMMD Chemicals
 - Add a reaction threshold:
   - If 30u or more Ammonium Nitrate is produced create an explosion in the reaction container.
 ###
-
+- Add Nutri-MAX Reagent
+  - 1u Ammonium Nitrate + 2u Potassium Nitrate + 2u Phosphorus -> 5u Nutri-MAX
+  - A potent industrial fertilizer that gives plants a ton of nutrient, too much will damage the plant to simulate fertilzer burn. (Funny that this is a more accurate rep of a fertilizer, do this in real life but use 4x phosphorus as phosphate rock for a (69-66-88) NPK fertilizer.)
 ###
 - Reagents will not heat past their boiling point, averaged out by solution mix and solution heat cap.
 - The Min of the boiling point of gas reagents or the gas current temperature will be used as the instantiation temperature of a reagent within a condenser.
