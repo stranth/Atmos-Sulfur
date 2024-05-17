@@ -218,6 +218,17 @@
         component: ScrambledAccent
 
 - type: reagent
+  id: Plantinum
+  name: reagent-name-platinum
+  group: Elements
+  desc: reagent-desc-platinum
+  physicalDesc: reagent-physical-desc-shiny
+  flavor: metallic
+  color: "#e5e4e2"
+  meltingPoint: 1768.3
+  boilingPoint: 3825.0
+
+- type: reagent
   id: Potassium
   name: reagent-name-potassium
   group: Elements
