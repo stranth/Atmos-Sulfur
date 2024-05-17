@@ -31,12 +31,14 @@
   **The mining team gave me a startling report, this planet seems to be rich in ores we haven't heard of since earth. My curiosity led me into the mines, and when I laid my eyes on it. My god.**
 ##
 - Add Aluminium Hydroxide reagent.
+  - Should block puking, this is a common antacid. (This will be useful should virology ever come back)
 - Add Bauxite Ore. Grinds into 5u Aluminium and 5u Aluminium Hydroxide. Only will be able to spawn in Grasslands.
 - Add Platinum reagent. Oh hoh what could it do?
 - Add Platinum Ore. Now we have all the rad space valuables. Grinds into 10u Platinum reagent. 
 - Add Potassium Nitrate Reagent:
   - Effects(Poison 0.5u) Deals 1 Genetic (It does in fact cause cancer...)
 - Add Sodium Nitrate Reagent
+  - Slows your metabolism while there is less than 5u of Sodium Nitrate.
 - Gunpowder is now produced by mixing 4u of Sodium nitrate with 3u of charcoal and 3u of sulfur, instead of using Potassium. The item produced isn't black enough to be black powder.
 - Add Saltpeter: Grinds into 4u sodium nitrate + 4u potassium nitrate + 2u table salt 
 ###
@@ -59,7 +61,7 @@ DMMMD Chemicals
 - Make the IOP its own reaction container.
 - Add Aluminium Sheet. Only available from Industrial ore processor. 1 Water 2 Bauxite Ore 1 Coal Ore 1 Salt ore -> 30 Aluminium Sheets
 - Add Aluminium Rod. Rod but in shiny new format.
-- Shuttle walls and other shuttle specific constructions will now require Aluminium Sheets or Rods repsectively in their construction. The advantage will be less mass of the fixture compared to its steel counterpart or current mass in the case of wallmounts.
+- Shuttle walls and other shuttle specific constructions will now require Aluminium Sheets or Rods repsectively in their construction. The advantage will be less mass of the fixture compared to its steel counterpart or current mass in the case of wallmounts. Uranium and Plasma reinforced glass will be made to need Aluminium rods as well.
 ###
 ## My lungs!
 ### **Star Date A Week Away:**
@@ -77,6 +79,8 @@ DMMMD Chemicals
   - 10 Sodium Nitrate + 10 Iron -> 10 Sodium Nitrite + 1 Iron ore
   - Effect: (Poison 0.5u/s): Has a 5% chance to block vomiting from the metabolizer if there is less than 1u of this reagent. Removes 2u of Hydrogen Sulfide when theres at least 1.5u of Hydrogen Sulfide present.
 - Add an effect to Vitamin reagent: Removes 0.1u of Hydrogen Sulfide when theres at least 0.1u of Hydrogen Sulfide present. (Basically a weaker version of Sodium Nitrate that is readily available and will be helpful to provide for later additions.)
+- Add Sodium Nitrate Effect:
+  - Removes 0.5u of Hydrogen Sulfide in the metabolizer as long as there is 5u of Hydrogen Sulfide.
 ###
 ## Holy shit there's real acid rain in my lungs
 ### **NT-AUDIOLOG-X229-NO:**
@@ -93,6 +97,7 @@ DMMMD Chemicals
 - Add Sodium Nitrite Reagent:
   - 1u Nitric Oxide + 1u Nitrogen Dioxide + 2u Sodium Hydroxide -> 2u Sodium Nitrite
 - Add a Fume Hood Machine, a T2 service tech. It would be toggleable like condenser machines, while active it would query for events related to adding reagents and then use the dictionary lookup available to reagents to predict the products available to the solution to check if they are going to make a reagent with a gaseous product,  similarly on reaction the reaction container would need to check for a fume hood machine on the tile of the reaction. if no fume hood the reaction spills its gas into the air, else the gas gets transferred to the fume hoods buffer. Don't be the RD that died.
+- 1500 Caustic Damage : )
 ###
 ## Yet to be categorised
 ###
