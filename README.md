@@ -114,6 +114,13 @@ DMMMD Chemicals
   - 1u Ammonium Nitrate + 2u Potassium Nitrate + 2u Phosphorus -> 5u Nutri-MAX
   - A potent industrial fertilizer that gives plants a ton of nutrient, too much will damage the plant to simulate fertilzer burn. (Funny that this is a more accurate rep of a fertilizer, do this in real life but use 4x phosphorus as phosphate rock for a (69-66-88) NPK fertilizer.)
 ###
+- Change Bee bee-haviour. Aha.
+  - Make bees seek out sources of pollen randomly.
+  - Bees will act as sterile swabs for the purpose of pollentation. (Bees have 4 legs and one body that collect pollen, so technically it is 5 swabs worth of pollen.)
+  - A Bee will enter a cleaning state after it has landed at two or more pollen sources.
+  - Bees will be blocked by plants based on a factor of their pest resistance.
+- Pest Killer now temporarily increases the pest resistance of a plant for some amount of time.
+
 - Reagents will not heat past their boiling point, averaged out by solution mix and solution heat cap.
 - The Min of the boiling point of gas reagents or the gas current temperature will be used as the instantiation temperature of a reagent within a condenser.
 ###
