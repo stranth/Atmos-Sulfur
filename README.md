@@ -69,7 +69,7 @@ DMMMD Chemicals
 - Change Sulfuric Acid Recipe:
   - 1u Hydrogen Sulfide + 2u Oxygen -> 1u Sulfuric Acid
 - Remove the -1 priorty from hydroxide since it will no longer interfere with the production of Sulfuric Acid.
-- Add Quantized Sodium Nitrite Reagent:
+- Add Quantized Sodium Nitrite Reaction:
   - 10 Sodium Nitrate + 10 Iron -> 10 Sodium Nitrite + 1 Iron ore
   - Effect: (Poison 0.5u/s): Has a 5% chance to block vomiting from the metabolizer if there is less than 1u of this reagent. Removes 2u of Hydrogen Sulfide when theres at least 1.5u of Hydrogen Sulfide present.
 - Add an effect to Vitamin reagent: Removes 0.1u of Hydrogen Sulfide when theres at least 0.1u of Hydrogen Sulfide present. (Basically a weaker version of Sodium Nitrate that is readily available and will be helpful to provide for later additions.)
