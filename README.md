@@ -102,7 +102,7 @@ DMMMD Chemicals
 ###
 ## I am become Gas. Destroyer of Water.
 ### **Engineering Log #G45P155-E-R-093**
-  **So the Chemistry nerds have been complaining about some awful god damn smells coming from their new fume hoods. After reading the logs I couldn't find a god damned thing, so I took one of their hoods to peer into its innards. You know they were right, that thing is absolutely rancid, there's signs of corrosion all over the place too. What in the god damn were they mixing?**
+  **So the Chemistry nerds have been complaining about some awful god damn smells coming from their new fume hoods. After reading the logs I couldn't find a god damned thing, so I took one of their hoods to peer into its innards. The nerds are a bunch a wussies if they can't handle the smell of burnt matches, but there's signs of corrosion all over the place. What in the god damn were they mixing?**
 ##
 - Add Sulfur Dioxide Reagent
 ###
