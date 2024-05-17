@@ -63,7 +63,7 @@ DMMMD Chemicals
 - Add Aluminium Rod. Rod but in shiny new format.
 - Shuttle walls and other shuttle specific constructions will now require Aluminium Sheets or Rods repsectively in their construction. The advantage will be less mass of the fixture compared to its steel counterpart or current mass in the case of wallmounts. Uranium and Plasma reinforced glass will be made to need Aluminium rods as well.
 ###
-## My lungs!
+## Augh! My nose!
 ### **Star Date A Week Away:**
   **The mining team and I have come across this unforgivable sin of a planet. I'm unsure if we have anything right now to handle this. Advised to crew to return to the station. Upon our return we noticed the ship was covered in some residue, its making the shuttle bay smell awful!**
   
@@ -98,6 +98,10 @@ DMMMD Chemicals
   - 1u Nitric Oxide + 1u Nitrogen Dioxide + 2u Sodium Hydroxide -> 2u Sodium Nitrite
 - Add a Fume Hood Machine, a T2 service tech. It would be toggleable like condenser machines, while active it would query for events related to adding reagents and then use the dictionary lookup available to reagents to predict the products available to the solution to check if they are going to make a reagent with a gaseous product,  similarly on reaction the reaction container would need to check for a fume hood machine on the tile of the reaction. if no fume hood the reaction spills its gas into the air, else the gas gets transferred to the fume hoods buffer. Don't be the RD that died.
 - 1500 Caustic Damage : )
+
+###
+## I am become Gas. Filler of lungs.
+### **Engineering Log #G45P155-E-R-093**
 ###
 ## Yet to be categorised
 ###
