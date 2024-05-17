@@ -110,8 +110,9 @@ DMMMD Chemicals
 ###
 - Reagents will have triple points which will not yet be used for anything but clamping minimum temperatures, this will affect the temperature of spawned gasses.
 ###
-
-
+###
+## Major Plans
+I am looking to break the knees of how atmospherics is calculated currently.
 
 
 <!--
