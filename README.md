@@ -12,7 +12,7 @@
   
   This Fork will facilitate multiple PRs that focus on single focus additions within this document.
   
-## What would this PR would change? A summary.
+## What would this PR change? A summary.
 
 - **Make acids harder to make via Chemistry**
 - **Add some related gases to assist with making acids harder to make via Chemistry**
