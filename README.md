@@ -100,8 +100,11 @@ DMMMD Chemicals
 - 1500 Caustic Damage : )
 
 ###
-## I am become Gas. Filler of lungs.
+## I am become Gas. Destroyer of Water.
 ### **Engineering Log #G45P155-E-R-093**
+  **So the Chemistry nerds have been complaining about some awful god damn smells coming from their new fume hoods. After reading the logs I couldn't find a god damned thing, so I took one of their hoods to peer into its innards. You know they were right, that thing is absolutely rancid, there's signs of corrosion all over the place too. What in the god damn were they mixing?**
+##
+- Add Sulfur Dioxide Reagent
 ###
 ## Yet to be categorised
 ###
