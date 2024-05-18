@@ -10,7 +10,7 @@
   
   Because of the unique medicinal and toxic properties of sulfur compounds, nitrogen compoinds will also be added to help round out the chemistry gameplay and as well make some items harder to obtain through normal means, requiring smarter decision making when it comes to employing those items. This will also create a more rounded set of chemicals, having sodium based reagents that and be expanded on and directly assist with these processes.
   
-  This Fork will facilitate multiple PRs that focus on single focus additions within this document.
+  This Fork will facilitate multiple PRs that focus on single focus additions within this document. Features of a module may get pushed back depending on their content addition to abide the feature freeze. These features will be noted since a lot of this will heavily rely on NewMed/WoundMed.
   
 ## What would this PR change? A summary.
 
@@ -25,23 +25,21 @@
 
 # What will change in modules:
 
-## Ore Addition Module ( A lot of this is some-what freezable. Aluminium Hydroxides' proper implementation will rely on NewMed/WoundMed )
+## Ore Addition Module 
 
 ### **Star Date Today:** 
   **The mining team gave me a startling report, this planet seems to be rich in ores we haven't heard of since earth. My curiosity led me into the mines, and when I laid my eyes on it. My god.**
 ##
 - Add Aluminium Hydroxide reagent.
-  - Should block puking, this is a common antacid. (This will be useful should virology ever come back)
-  - Removes 0.5u of an Acid within the metabolizer if theres 1u or more of any Acid present.
-  - Suppresses Fire!
-- Replace water in Fire Extinguishers with Aluminium Hydroxide at round start. Will increase the effectiveness of the item itself.
-- Add Bauxite Ore. Grinds into 5u Aluminium and 5u Aluminium Hydroxide. Only will be able to spawn in Grasslands.
-- Add Platinum reagent. Oh hoh what could it do?
+  - Effects(Poison 0.5u): Should block puking, this is a common antacid. (Frozen) Removes 0.5u of an Acid within the metabolizer if theres 1u or more of any Acid present. (Frozen) Suppresses Fire! (Frozen?)
+- Replace water in Fire Extinguishers with Aluminium Hydroxide at round start. Will increase the effectiveness of the item itself.(Frozen?)
+- Add Bauxite Ore. Grinds into 5u Aluminium and (5u Aluminium Hydroxide. Only will be able to spawn in Grasslands.
+- Add Platinum reagent. Oh hoh what could it do? 
 - Add Platinum Ore. Now we have all the rad space valuables. Grinds into 10u Platinum reagent. 
 - Add Potassium Nitrate Reagent:
-  - Effects(Poison 0.5u) Deals 1 Genetic (It does in fact cause cancer...)
-- Add Sodium Nitrate Reagent
-  - Slows your metabolism while there is less than 5u of Sodium Nitrate.
+  - Effects(Poison 0.5u) Deals 1 Genetic (It does in fact cause cancer...) (Frozen)
+- Add Sodium Nitrate Reagent:
+  - Slows your metabolism while there is less than 5u of Sodium Nitrate. (Frozen)
 - Gunpowder is now produced by mixing 4u of Sodium nitrate with 3u of charcoal and 3u of sulfur, instead of using Potassium. The item produced isn't black enough to be black powder.
 - Add Saltpeter: Grinds into 4u sodium nitrate + 4u potassium nitrate + 2u table salt 
 ###
@@ -60,9 +58,9 @@ DMMMD Chemicals
 - The Gas Recycler Machine will now output 1 diamond for every 20u of Carbon within it while pressure is higher than 5500 kPa & temp is between 1984.15K & 3773.15K.
 - The Gas Recycler Machine will be renamed into the Gas Processor Machine to make its function more obvious.
 - Add 10 Diamonds to the recipe for the Industrial Ore Processor. (Diamond teeth grind ya ore go brrrrrr. Harass atmos if you lack the diamonds.)
-- Add a reagent buffer to the Industrial Ore processor. 
-- Make the IOP its own reaction container.
-- Add Aluminium Sheet. Only available from Industrial ore processor. 1 Water 2 Bauxite Ore 1 Coal Ore 1 Salt ore -> 30 Aluminium Sheets
+- Add a reagent buffer to the Industrial Ore processor. (Frozenish, solution containers are being touched on in NewMed)
+- Make the IOP its own reaction container. (Frozenish for the same reason)
+- Add Aluminium Sheet. Only available from Industrial ore processor. 20u Water + 2 Bauxite Ore + 1 Coal Ore + 1 Salt ore -> 30 Aluminium Sheets
 - Add Aluminium Rod. Rod but in shiny new format.
 - Shuttle walls and other shuttle specific constructions will now require Aluminium Sheets or Rods repsectively in their construction. The advantage will be less mass of the fixture compared to its steel counterpart or current mass in the case of wallmounts. Uranium and Plasma reinforced glass will be made to need Aluminium rods as well.
 ###
@@ -73,17 +71,17 @@ DMMMD Chemicals
   **Edit: The CMO has advised me that we have found something with great implications for how we do our chemistry as a whole... this planet is one for the databases certainly**
 ##
 - Add Hydrogen Sulfide Reagent: 
-  - 16u Hydrogen + 1u Sulfur @ 723.15K -> 8u Hydrogen Sulfide
-  - Effect (Poison 0.5u/s): Has a 10% chance to cause vomiting. Deals 1.5 Airloss when there is at least 10u of this reagent. Deals 3 Airloss when there is at least 35u of this reagent. Deals 10 Airloss when there is at least 80u of this reagent. Upon reaching 100u of this reagent you instantly crit.
+  - 16u Hydrogen + 1u Sulfur @ 723.15K -> 8u Hydrogen Sulfide 
+  - Effect (Poison 0.5u/s): Has a 10% chance to cause vomiting. Deals 1.5 Airloss when there is at least 10u of this reagent. Deals 3 Airloss when there is at least 35u of this reagent. Deals 10 Airloss when there is at least 80u of this reagent. Upon reaching 100u of this reagent you instantly crit. (Frozen)
 - Change Sulfuric Acid Recipe:
   - 1u Hydrogen Sulfide + 2u Oxygen -> 1u Sulfuric Acid
 - Remove the -1 priorty from hydroxide since it will no longer interfere with the production of Sulfuric Acid.
 - Add Quantized Sodium Nitrite Reaction:
   - 10 Sodium Nitrate + 10 Iron -> 10 Sodium Nitrite + 1 Iron ore
-  - Effect: (Poison 0.5u/s): Has a 5% chance to block vomiting from the metabolizer if there is less than 1u of this reagent. Removes 2u of Hydrogen Sulfide when theres at least 1.5u of Hydrogen Sulfide present.
-- Add an effect to Vitamin reagent: Removes 0.1u of Hydrogen Sulfide when theres at least 0.1u of Hydrogen Sulfide present. (Basically a weaker version of Sodium Nitrate that is readily available and will be helpful to provide for later additions.)
+  - Effect: (Poison 0.5u/s): Has a 5% chance to block vomiting from the metabolizer if there is less than 1u of this reagent. Removes 2u of Hydrogen Sulfide when theres at least 1.5u of Hydrogen Sulfide present. (Frozen)
+- Add an effect to Vitamin reagent: Removes 0.1u of Hydrogen Sulfide when theres at least 0.1u of Hydrogen Sulfide present. (Frozen)
 - Add Sodium Nitrate Effect:
-  - Removes 0.5u of Hydrogen Sulfide in the metabolizer as long as there is 5u of Hydrogen Sulfide.
+  - Removes 0.5u of Hydrogen Sulfide in the metabolizer as long as there is 5u of Hydrogen Sulfide. (Frozen)
 ###
 ## Holy shit there's real acid rain in my lungs
 ### **NT-AUDIOLOG-X229-NO:**
@@ -112,7 +110,7 @@ DMMMD Chemicals
 - Add Sulfur Dioxide Reagent:
   - 1u Sulfur + 8u Oxygen @420.15K -> create gas 4.76mol Sulfur Dioxide @1420.15K (Yes this does spike the temp of the product to 1000+ degrees.)
   - 2u Hydrogen Sulfide + 3u Oxygen @420.15K -> create gas 4.76mol Sulfur Dioxide + create gas 4.76mol Water Vapor
-  - Sulfur Dioxide will now emit from the Industrial Ore Processor on the production of Steel, Reinforced Glass, and Plasteel. Initial value will be 19.04mol of SO2 and be scaled with the amount of ore being used. These can be set to constant values since we won't need to calculate the cost given the static, un-upgradeable nature of this machine.
+  - Sulfur Dioxide will now emit from the Industrial Ore Processor on the production of Steel, Reinforced Glass, and Plasteel. Initial value will be 19.04mol of SO2 and be scaled with the amount of ore being used. These can be set to constant values since we won't need to calculate the cost given the static, un-upgradeable nature of this machine. (Frozen?)
 ###
 ## Yet to be categorised
 ###
@@ -127,7 +125,7 @@ DMMMD Chemicals
 ###
 - Add Nutri-MAX Reagent
   - 1u Ammonium Nitrate + 2u Potassium Nitrate + 2u Phosphorus -> 5u Nutri-MAX
-  - A potent industrial fertilizer that gives plants a ton of nutrient, too much will damage the plant to simulate fertilzer burn. (Funny that this is a more accurate rep of a fertilizer, do this in real life but use 4x phosphorus as phosphate rock for a (69-66-88) NPK fertilizer.)
+  - A potent industrial fertilizer that gives plants a ton of nutrient, too much will damage the plant to simulate fertilzer burn. (Funny that this is a more accurate rep of a fertilizer, do this in real life but use 4x phosphorus as phosphate rock for a (69-66-88) NPK fertilizer.) (Frozen?)
 ###
 - Change Bee bee-haviour. Aha.
   - Make bees seek out sources of pollen randomly.
