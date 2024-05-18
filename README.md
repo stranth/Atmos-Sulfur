@@ -25,7 +25,7 @@
 
 # What will change in modules:
 
-## Ore Addition Module
+## Ore Addition Module ( A lot of this is some-what freezable. Aluminium Hydroxides' proper implementation will rely on NewMed/WoundMed )
 
 ### **Star Date Today:** 
   **The mining team gave me a startling report, this planet seems to be rich in ores we haven't heard of since earth. My curiosity led me into the mines, and when I laid my eyes on it. My god.**
